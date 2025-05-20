@@ -6,7 +6,7 @@ This guide will help you replicate the setup of an emulated s390x Linux environm
 
 
 
-## 🧰 Prerequisites
+## Prerequisites
 
 Make sure you're running Ubuntu (20.04 or newer) on an x86_64 system.
 
@@ -81,8 +81,6 @@ Confirm the binary:
 
 ```bash
 file test-s390x
-# Output: ELF 64-bit MSB pie executable, IBM S/390, version 1 (SYSV), dynamically linked, interpreter /lib/ld64.so.1, BuildID[sha1]=a1bff220f4e32e4954e99da773a08db756577f74, for GNU
-/Linux 3.2.0, not stripped  
 ```
 
 ---
@@ -103,7 +101,7 @@ sudo chroot ~/s390x-vm/rootfs /bin/bash
 
 ---
 
-## ▶Step 9: Run the Test Binary
+## Step 9: Run the Test Binary
 
 Inside the chroot:
 

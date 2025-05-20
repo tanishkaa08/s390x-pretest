@@ -44,8 +44,6 @@ s390x-pretest/
 
 
 
-Step-by-Step Summary
-
 ### 1. Installed Required Packages
 
 I installed all required tools like QEMU, GCC cross-compilers, and debootstrap using:
