@@ -1,12 +1,8 @@
 
----
-
-```markdown
 # s390x Pretest – LFX 2025 (WasmEdge)
 
 This repository demonstrates successful setup and testing of the **s390x architecture** on an x86 Ubuntu system using QEMU and Debian's debootstrap. This pretest is part of the application process for the **WasmEdge LFX 2025 project: "Port WasmEdge and the WASI-NN ggml backend to the s390x platform."**
 
----
 
 ## Objective
 
@@ -17,7 +13,7 @@ The goal of this pretest is to prove that I have:
 - **Executed the binary** in a chrooted s390x environment via QEMU.
 - Understood the toolchain setup and testing process.
 
----
+
 
 ## Tools & Technologies Used
 
@@ -29,7 +25,6 @@ The goal of this pretest is to prove that I have:
 | **chroot**               | Creates isolated environment inside rootfs   |
 | **Ubuntu (x86_64)**      | Host machine for development and testing     |
 
----
 
 ## Project Structure
 
@@ -47,13 +42,13 @@ s390x-pretest/
 
 ````
 
----
 
-## 📋 Step-by-Step Summary
+
+Step-by-Step Summary
 
 ### 1. Installed Required Packages
 
-We installed all required tools like QEMU, GCC cross-compilers, and debootstrap using:
+I installed all required tools like QEMU, GCC cross-compilers, and debootstrap using:
 
 ```bash
 sudo apt install -y qemu-user-static debootstrap gcc-s390x-linux-gnu g++-s390x-linux-gnu build-essential
@@ -65,7 +60,7 @@ These allow us to:
 * Cross-compile (`s390x-linux-gnu-gcc`)
 * Bootstrap Debian root filesystem (`debootstrap`)
 
----
+
 
 ### 2. Created s390x Debian Root Filesystem
 
