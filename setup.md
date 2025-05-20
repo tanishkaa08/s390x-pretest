@@ -1,16 +1,16 @@
 
-````markdown
+
 # Setup Guide: s390x Platform Pretest
 
 This guide will help you replicate the setup of an emulated s390x Linux environment on an x86_64 Ubuntu machine. You'll compile a simple C program using a cross-compiler and run it in a chrooted Debian environment using QEMU.
 
----
+
 
 ## 🧰 Prerequisites
 
 Make sure you're running Ubuntu (20.04 or newer) on an x86_64 system.
 
----
+
 
 ## Step 1: Clone the Repository
 
@@ -19,7 +19,7 @@ git clone https://github.com/your-username/s390x-pretest.git
 cd s390x-pretest
 ````
 
----
+
 
 ## Step 2: Install Required Packages
 
@@ -122,8 +122,7 @@ Hello from s390x!
 
 ## Done!
 
-You’ve successfully:
-
+WE have Succesfully:
 * Set up an s390x Debian rootfs on x86\_64
 * Compiled a binary using a cross-compiler
 * Verified execution using QEMU
